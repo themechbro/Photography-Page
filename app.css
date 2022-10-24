@@ -147,3 +147,29 @@ footer>.social{
     font-family: 'Roboto Mono', monospace;
     line-height: 1;
 }
+
+
+/*Mediaqueries*/
+
+@media(max-width:768px){
+.album-card{
+    flex-direction: column;
+}
+.main-body{
+    height: 100%;
+    width: 100%;
+}
+html, body{
+    height: 100%;
+}
+.about>.clients{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-cards{
+    flex-direction: column;
+}footer>.social>a>.fa-brands{
+font-size: 1.2rem;
+}
+
+}
