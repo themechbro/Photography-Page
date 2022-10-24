@@ -1,0 +1,149 @@
+html, body{
+    height: 100%;
+width: 100%;
+}
+.nav-link{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    background: none;
+}.nav-link>.fa-brands{
+    font-size: 1.5rem;
+    background: none;
+}.nav-link>.fa-brands:hover{
+color: rgb(44, 3, 3);
+transition: all 2s ease-in;
+}
+.navbar-brand:hover{
+text-decoration: underline;
+font-family: 'Roboto Mono', monospace;
+transition: all 0.5s;
+}.main-body{
+    background-image: url("https://images.pexels.com/photos/108148/pexels-photo-108148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}.main-body>.container>h1,h6{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+}.portfolio>.display-3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    letter-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+.portfolio-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2% 2%;
+}.img{
+    width: 90%;
+    opacity: 50%;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.img:hover{
+opacity: 100%;
+scale: 0.9;
+transition: all 1s;
+cursor: pointer;
+}.fashion>div>.display-5{
+    text-decoration: underline;padding-bottom: 2%;
+}.places>div>.display-5{
+    text-decoration: underline;
+padding-bottom: 2%;
+}.potrait>div>.display-5{
+    text-decoration: underline;
+padding-bottom: 2%;
+}.about>p{
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    margin-left: 10%;
+}.about>.clients>.text-clients>p{
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    margin-left: 10%;
+}
+.about>h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10%;
+    padding: 2% 0;
+    transition: all 1s;
+}.about>.clients>.text-clients>h3{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10%;
+    padding: 2% 0;
+}.about>.clients>.img-clients>img{
+    margin-top: 10%;
+    margin-left:  5%;
+    margin-right: 5%;
+width: 10%;
+border-radius: 10px;
+}.about>.clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    margin-left: 10%;
+}.album-card{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 5%;
+    padding-bottom: 3%;
+}.album-card>.German>img{
+    width:90%;
+    opacity: 50%;
+    border-radius: 20px;
+    transition: all 1s ease;
+}.album-card>.France>img{
+    width:90%;
+opacity: 50%;
+border-radius: 20px;
+transition: all 1s ease;
+}.album-card>.India>img{
+    width:90%;
+opacity: 50%;
+border-radius: 20px;
+transition: all 1s ease;
+}.album-card>.German>img:hover{
+    opacity: 100%;
+    transform: scale(0.9);
+    border-radius: 0;
+    transition: all 1s ease;
+    cursor: pointer;
+}.album-card>.France>img:hover{
+    opacity: 100%;
+    transform: scale(0.9);
+    border-radius: 0;
+    transition: all 1s ease;
+cursor: pointer;
+}.album-card>.India>img:hover{
+    opacity: 100%;
+    transform: scale(0.9);
+    border-radius: 0;
+    transition: all 1s ease;
+cursor: pointer;
+}.albums>h1{
+    font-family: 'Roboto Mono', monospace;
+    padding: 5% 0;
+}footer>.social>a>.fa-brands{
+    font-size: 2rem;
+    color: #FFF;
+}
+footer>.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}footer>.social>a>.fa-brands:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+    color: rgb(148, 154, 154);
+}footer>p,h1{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1;
+}
