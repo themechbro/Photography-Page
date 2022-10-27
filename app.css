@@ -147,7 +147,21 @@ footer>.social{
     font-family: 'Roboto Mono', monospace;
     line-height: 1;
 }
-
+.scroller button{
+    width:60px;
+    height: 60px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 0.5%;
+    right: 1%;
+    background-color: rgb(32, 81, 213) ;
+    transition: all 1s;
+}
+.scroller button:hover{
+background-color: black;
+color: #FFF;
+transition: all 1s;
+}
 
 /*Mediaqueries*/
 

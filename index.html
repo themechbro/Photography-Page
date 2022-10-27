@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
+   
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
@@ -16,8 +17,12 @@
     <title>ATP</title>
 </head>
 <body>
+
+    <div class="scroller visually-hidden">
+       <button onclick="scrollup()"><i class="fa-sharp fa-solid fa-arrow-up up"></i></button> 
+    </div>
     <div class="main-body">
-  
+        
     <!--Nav-->
     <nav class="navbar navbar-expand-lg bg-transparent">
       
@@ -125,5 +130,22 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laborum quis.
 
 </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(function(){
+        $(document).scroll(function(){
+            var $scroll= $('.scroller')
+            $scroll.addClass('scroller', $(this).scrollTop>60);
+            $scroll.removeClass('visually-hidden', $(this).scrollTop>60);
+           
+        });
+    });
+
+    function scrollup(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        $scroll.addClass('visually-hidden', $(this).scrollTop=0 );
+    }
+</script>
 </body>
 </html>
